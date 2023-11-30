@@ -7,7 +7,7 @@
     "start": "node src/index.js",
     "lint": "npx eslint src",
     "lint:fix": "npx eslint src --fix",
-    "test": "mocha test/**/*.test.js"
+    "test": "mocha test/**/*.test.js --exit"
   },
   "type": "module",
   "keywords": [],
