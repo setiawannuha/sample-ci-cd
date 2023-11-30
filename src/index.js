@@ -3,6 +3,7 @@ import userService from './services/user.service.js';
 
 const app = express();
 app.use(express.json());
+app.use(express.static('public'))
 app.get('/', (req, res) => {
   res.json({
     data: null,
