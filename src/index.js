@@ -7,6 +7,7 @@ app.get('/', (req, res) => {
   res.json({
     data: null,
     status: 'success',
+    message: 'It Works',
   });
 });
 
