@@ -11,7 +11,7 @@ describe('API Tests', () => {
       .expect(200)
       .end((err, res) => {
         if (err) return done(err);
-        expect(res.body.status).to.equal('sss');
+        expect(res.body.status).to.equal('success');
         return done();
       });
   });
