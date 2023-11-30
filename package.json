@@ -7,7 +7,8 @@
     "start": "node src/index.js",
     "lint": "npx eslint src",
     "lint:fix": "npx eslint src --fix",
-    "test": "mocha test/**/*.test.js --exit"
+    "test": "mocha test/**/*.test.js --exit",
+    "prepare": "husky install"
   },
   "type": "module",
   "keywords": [],
@@ -23,6 +24,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.2",
     "mocha": "^10.2.0",
-    "supertest": "^6.3.3"
+    "supertest": "^6.3.3",
+    "husky": "^8.0.0"
   }
 }
